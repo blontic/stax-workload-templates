@@ -1,0 +1,1 @@
+AWSTemplateFormatVersion: "2010-09-09"\nResources:\n    S3Bucket:\n        Type: AWS::S3::Bucket\n        Properties:\n            BucketName: 'fsdkjfh'\n
