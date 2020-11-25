@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Parameters:
+    BucketName:
+        Type: String
+        Default: 'fsdkjfh'
+    StaxOrgId:
+        Type: String
+Resources:
+    S3Bucket:
+        Type: AWS::S3::Bucket
+        Properties:
+            BucketName: !Sub '${BucketName}-${StaxOrgId}'
