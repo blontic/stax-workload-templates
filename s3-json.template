@@ -6,7 +6,7 @@
         }
     },
     "Outputs": {
-        "BucketName": 
+        "BucketName": {
             "Value": {
                 "Ref": "S3Bucket"
             },
