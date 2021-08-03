@@ -1,0 +1,4 @@
+Resources:
+  - S3:
+      Type: AWS::Cloudformation
+      TemplateURL: "https://raw.githubusercontent.com/blontic/stax-workload-templates/main/s3-json-invalid.template"
