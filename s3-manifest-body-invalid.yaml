@@ -1,4 +1,1 @@
 Resources:
-  - S3:
-      Type: AWS::Cloudformation
-      TemplateBody: "AWSTemplateFormatVersion: '2010-09-09'\nResources:\n"
