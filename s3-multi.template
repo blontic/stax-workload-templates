@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+    S3Bucket1:
+        Type: AWS::S3::Bucket
+    S3Bucket2:
+        Type: AWS::S3::Bucket
+    S3Bucket3:
+        Type: AWS::S3::Bucket    
+    S3Bucket4:
+        Type: AWS::S3::Bucket
+    S3Bucket5:
+        Type: AWS::S3::Bucket
