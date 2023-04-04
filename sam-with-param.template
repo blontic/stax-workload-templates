@@ -1,0 +1,18 @@
+Transform: AWS::Serverless-2016-10-31
+Parameters:
+  FunctionName:
+    Type: String
+  FunctionDescription:
+    Type: String
+Resources:
+  MyFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Ref FunctionName
+      Description: !Ref FunctionDescription
+      Runtime: nodejs16.x
+      Handler: index.handler
+      InlineCode: |
+        exports.handler = async (event) => {
+          console.log(event);
+        }
